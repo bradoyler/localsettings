@@ -1,0 +1,37 @@
+{
+  "name": "localsettings",
+  "version": "0.0.1",
+  "description": "Azure local.settings.json loader for node",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint src/",
+    "test": "node tests/index",
+    "format": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/bradoyler/localsettings.git"
+  },
+  "keywords": [
+    "azure",
+    "localsettings",
+    "local.settings.json",
+    "functions",
+    "microsoft"
+  ],
+  "author": "Brad Oyler <bradoyler@gmail.com> (github.com/bradoyler)",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/bradoyler/localsettings/issues"
+  },
+  "homepage": "https://github.com/bradoyler/localsettings"
+}
